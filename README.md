@@ -11,7 +11,7 @@ If someone out there is looking to build a better guide to Dubai's public transp
 * Train timings.
 * ETA at destination.
 * Nol Card balance checker.
-* Automatic station detection. <em>you'll need a Foursquare client ID &amp; secret for this</em>
+* Automatic station detection. <em>(you'll need a Foursquare client ID &amp; secret for this)</em>
 
 <h2>Why the hardcoded timings for one station only?</h2>
 Because I lived close to the Noor Bank station. All the other timings are based on the timings at Noor Bank. The RTA has no public API for fetching train timings.
