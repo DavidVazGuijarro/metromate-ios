@@ -1858,8 +1858,8 @@
     
     // Put it together.
     urlString = [urlString stringByAppendingFormat:@"v=%d%02d%02d", currentYear, currentMonth, currentDay];
-    urlString = [urlString stringByAppendingFormat:@"&client_id=ZHK22TFDORRHHDKGN4L40EQKGUBJEXM3F2FPGS14JCM1MKPE"];
-    urlString = [urlString stringByAppendingFormat:@"&client_secret=PMQDW1TFREX5P2UJU2G0C42IIT01SQBR52YOHFN2TCW3S2RK"];
+    urlString = [urlString stringByAppendingFormat:@"&client_id=%@", YOUR_4SQ_CLIENT_ID];
+    urlString = [urlString stringByAppendingFormat:@"&client_secret=%@", YOUR_4SQ_CLIENT_SECRET];
     urlString = [urlString stringByAppendingFormat:@"&intent=browse"];
     urlString = [urlString stringByAppendingFormat:@"&radius=800"];
     urlString = [urlString stringByAppendingFormat:@"&ll=%f,%f", appDelegate.currentLocation.latitude, appDelegate.currentLocation.longitude]; // The ordering is important!!!
