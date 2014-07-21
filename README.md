@@ -1,7 +1,7 @@
 MetroMate for iOS.
 =========
 
-A beautifully designed guide to the Dubai Metro that I built back in May, 2013.**
+A beautifully designed guide to the Dubai Metro that I built back in May, 2013 (Android version <a href="https://github.com/MachOSX/metromate-android">here</a>).**
 
 This is the first time I publicly release my code. While I admit it might not look beautiful, it got the necessary job done. Everything is stuffed into 1 view controller class because I needed fine control over view transitions. This seemed like the quickest way back then. :P
 
