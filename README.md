@@ -1,4 +1,4 @@
-MetroMate for IOS.
+MetroMate for iOS.
 =========
 
 A beautifully designed guide to the Dubai Metro that I built back in May, 2013.**
